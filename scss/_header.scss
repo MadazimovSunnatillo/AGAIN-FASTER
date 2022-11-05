@@ -1,0 +1,45 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    .nav-description{
+        background-color: 
+        #FBFBFB;
+        text-align: center;
+        padding: 10px 0;
+        font-family: $oswald;
+        font-weight: 300;
+        font-size: 12px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+    }
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            li{
+                font-family: $open-sans;
+                font-weight: 400;
+                font-size: 12px;
+                letter-spacing: 0.175em;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .nav-icons{
+        display: flex;
+        gap: 24px;
+    }
+}
