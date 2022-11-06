@@ -1,0 +1,5 @@
+@media (max-width: $xl) {
+    .container {
+        width: calc($lg - 20px);
+    }
+}
