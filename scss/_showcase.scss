@@ -1,9 +1,10 @@
-main{
+section{
     background-color: #000;
     color: #fff;
     .hero{
         display: flex;
         justify-content: space-between;
+        align-items: center; 
         .hero-text{
             h1{
                 padding-top: 55px;
@@ -27,8 +28,7 @@ main{
         }
         .hero-img{
            img{
-            width: 600px;
-            margin-right: -70px;
+            width: 580px;
            }
         }
     }

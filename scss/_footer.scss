@@ -1,0 +1,65 @@
+footer{
+    background: #F1F1F1;
+    padding-top: 80px;
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .footer-email{
+       
+         img{
+            position: relative;
+            top: -40px;
+
+         }
+
+            h4{
+                padding-bottom: 29px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                letter-spacing: 0.165em;
+                text-transform: uppercase;
+            }
+            form{
+                input{
+                    border: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid grey;
+                    font-size: 18px;
+                }
+            }
+        }
+        i{
+            padding-top: 30px;
+            padding-right: 20px;
+        }
+    }
+    .footer-links {
+        span{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.165em;
+            text-transform: uppercase;
+            color: #353535;
+        }
+        ul li{
+            font-style: normal;
+            padding: 12px 0;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 167.5%;
+            color: #7E7E7E;
+        }
+    }
+}
+.end{
+font-weight: 300;
+font-size: 12px;
+line-height: 167.5%;
+color: #C4C4C4;
+
+}

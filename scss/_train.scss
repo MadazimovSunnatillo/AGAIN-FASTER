@@ -1,0 +1,22 @@
+.page-4{
+    background-color: #000;
+    color: #fff;
+    .training{
+        display: flex;
+        justify-content: space-between;
+        h2{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 143%;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            width: 500px;
+            padding-top: 172px;
+        }
+        img{
+            width: 600px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+    }
+}
